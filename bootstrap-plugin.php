@@ -1,4 +1,3 @@
-
 /*
    Plugin Name:Bootstrap Implementation (Steph)
    Plugin URI: http:www.stephanielynnpitman.com/bootstrap-steph
@@ -43,8 +42,14 @@ function wbs_select_field_call(){
 	$options = get_option('wbs_header_settings');
 	?>
 	<select>
-		<option value = '1'>Option 1</option>
-		<option value = '2'>Option 2</option>
+		<option value = 'bg-important'>Blue</option>
+		<option value = 'bg-success'>Green</option>
+		<option value = 'bg-info'>Indigo</option>
+		<option value = 'bg-warning'>Yellow</option>
+		<option value = 'bg-danger'>Red</option>
+		<option value = 'bg-secondary'>Dark Grey</option>
+		<option value = 'bg-dark'>Black</option>
+		<option value = 'bg-light'>White</option>
 	</select>
 	<?php
 }
