@@ -46,7 +46,7 @@ function wbs_page_create(){
 		//pop old card html line
 		array_pop($fileLines);
 		//append new card html line
-		array_push($fileLines, "\n".'<div class="card"><div class="card-title">'.$_POST["cardTitleInput"].'</div><div class="card-body">'.$_POST["cardTextInput"].'</div></div>');
+		array_push($fileLines,'<div class="card"><div class="card-title">'.$_POST["cardTitleInput"].'</div><div class="card-body">'.$_POST["cardTextInput"].'</div></div>');
  
 		//connect array elements 
 		$f = join('', $fileLines);
